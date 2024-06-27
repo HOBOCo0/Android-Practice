@@ -33,7 +33,8 @@ android {
 }
 
 dependencies {
-
+    // sweet AlertDialog
+    implementation("com.github.f0ris.sweetalert:library:1.5.6")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
@@ -42,4 +43,5 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
 }
